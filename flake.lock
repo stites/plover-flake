@@ -18,19 +18,32 @@
         "type": "github"
       }
     },
+    "my-plover-hid-machine": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1701398830,
+        "narHash": "sha256-H7SUu5hu7oXjUNcSRbYUWxYab4jm600r7pv5QN54VRI=",
+        "path": "/home/stites/git/python/my-plover-hid-machine",
+        "type": "path"
+      },
+      "original": {
+        "path": "/home/stites/git/python/my-plover-hid-machine",
+        "type": "path"
+      }
+    },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1701174899,
-        "narHash": "sha256-1W+FMe8mWsJKXoBc+QgKmEeRj33kTFnPq7XCjU+bfnA=",
+        "lastModified": 1670793925,
+        "narHash": "sha256-Qt9y7o0FmxtdFu48J7I9bN498ZtwqlLg89/t84aHmYM=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "010c7296f3b19a58b206fdf7d68d75a5b0a09e9e",
+        "rev": "bb069d84b1e8dd8b6bb60e3368d0d77aa9a49f9c",
         "type": "github"
       },
       "original": {
         "owner": "NixOS",
-        "ref": "nixpkgs-unstable",
         "repo": "nixpkgs",
+        "rev": "bb069d84b1e8dd8b6bb60e3368d0d77aa9a49f9c",
         "type": "github"
       }
     },
@@ -133,6 +146,7 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
+        "my-plover-hid-machine": "my-plover-hid-machine",
         "nixpkgs": "nixpkgs",
         "plover": "plover",
         "plover-machine-hid": "plover-machine-hid",
